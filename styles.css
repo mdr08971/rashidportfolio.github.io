@@ -1,0 +1,263 @@
+/* General Styles */
+body {
+    --mfn-button-font-family: inherit;
+    --mfn-button-font-size: 14px;
+    --mfn-button-font-weight: 400;
+    --mfn-button-font-style: inherit;
+    --mfn-button-letter-spacing: 0;
+    --mfn-button-padding: 16px 35px 16px 35px;
+    --mfn-button-border-width: 0;
+    --mfn-button-border-radius: 50px 50px 50px 50px;
+    --mfn-button-gap: 10px;
+    --mfn-button-transition: 0.2s;
+    --mfn-button-color: #747474;
+    --mfn-button-color-hover: #747474;
+    --mfn-button-bg: #f7f7f7;
+    --mfn-button-bg-hover: #eaeaea;
+    --mfn-button-border-color: transparent;
+    --mfn-button-border-color-hover: transparent;
+    --mfn-button-icon-color: #747474;
+    --mfn-button-icon-color-hover: #747474;
+    --mfn-button-box-shadow: unset;
+    --mfn-button-theme-color: #fff;
+    --mfn-button-theme-color-hover: #fff;
+    --mfn-button-theme-bg: #f74371;
+    --mfn-button-theme-bg-hover: #ea3664;
+    --mfn-button-theme-border-color: transparent;
+    --mfn-button-theme-border-color-hover: transparent;
+    --mfn-button-theme-icon-color: #fff;
+    --mfn-button-theme-icon-color-hover: #fff;
+    --mfn-button-theme-box-shadow: unset;
+    --mfn-button-shop-color: #fff;
+    --mfn-button-shop-color-hover: #fff;
+    --mfn-button-shop-bg: #f74371;
+    --mfn-button-shop-bg-hover: #ea3664;
+    --mfn-button-shop-border-color: transparent;
+    --mfn-button-shop-border-color-hover: transparent;
+    --mfn-button-shop-icon-color: #626262;
+    --mfn-button-shop-icon-color-hover: #626262;
+    --mfn-button-shop-box-shadow: unset;
+    --mfn-button-action-color: #fff;
+    --mfn-button-action-color-hover: #fff;
+    --mfn-button-action-bg: #4989fd;
+    --mfn-button-action-bg-hover: #3c7cf0;
+    --mfn-button-action-border-color: transparent;
+    --mfn-button-action-border-color-hover: transparent;
+    --mfn-button-action-icon-color: #626262;
+    --mfn-button-action-icon-color-hover: #626262;
+    --mfn-button-action-box-shadow: unset;
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+header {
+    background: linear-gradient(to right, #e3f3fd, #fffce0);
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Side_slide .extras .action_btn {
+    float: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0 0 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.action_btn {
+    width: 170px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: rgb(247, 67, 113);
+    color: #f4f4f4;
+    border: none; /* बॉर्डर हटाना */
+    padding: 10px 20px; /* अंदर का स्पेसिंग */
+    font-size: 16px; /* टेक्स्ट साइज़ */
+    border-radius: 25PX; /* किनारों को गोल करना */
+    cursor: pointer; /* माउस पॉइंटर */
+    text-decoration: none;
+    position: relative;
+    left: 340%;
+    bottom: 20px;
+}
+.lilink{
+    display: block;
+    text-align: right;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(247, 67, 113);
+    font-weight: bold;
+}
+
+#menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+#home {
+    background: url('') no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.bnr{
+    width: 136.5%;  /* पूरी चौड़ाई लेगा */
+    height: 500px;  /* ऊँचाई सेट करें */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    right: 20%;
+    top: 21px;
+    justify-content: center;
+}
+.btnbnr{
+    width: 170px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: rgb(247, 67, 113);
+    color: #f4f4f4;
+    border: none; /* बॉर्डर हटाना */
+    padding: 10px 20px; /* अंदर का स्पेसिंग */
+    font-size: 16px; /* टेक्स्ट साइज़ */
+    border-radius: 25PX; /* किनारों को गोल करना */
+    cursor: pointer; /* माउस पॉइंटर */
+    text-decoration: none;
+    position: relative;
+    bottom: 150px;
+    right: 310px;
+
+}
+.btnbnr:hover{
+   /* background-color: transparent; */
+    border-color: black;
+    color: white;
+}
+.btnbnr2{
+    width: 170px;
+    height: 35px;
+    text-align: center;
+    background-color: transparent;
+    color: rgb(12, 17, 123);
+    border: color rgb(12, 17, 123); /* बॉर्डर हटाना */
+    padding: 10px 20px; /* अंदर का स्पेसिंग */
+    font-size: 15px; /* टेक्स्ट साइज़ */
+    border-radius: 35px; /* किनारों को गोल करना */
+    cursor: pointer; /* माउस पॉइंटर */
+    text-decoration: none;
+    position: relative;
+    bottom: 150px;
+    right: 220px;
+    transition: all 0.3s ease-in-out;
+
+}
+.btnbnr2:hover{
+    background: rgb(12, 17, 123);
+    color: white;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+}
+
+.btn {
+    background-color: #ff00e6; /* नीला बैकग्राउंड */
+    color: rgb(129, 15, 15); /* टेक्स्ट का रंग */
+    border: none; /* बॉर्डर हटाना */
+    padding: 10px 20px; /* अंदर का स्पेसिंग */
+    font-size: 16px; /* टेक्स्ट साइज़ */
+    border-radius: 15px; /* किनारों को गोल करना */
+    cursor: pointer; /* माउस पॉइंटर */
+    text-decoration: none;
+}
+
+/* Services */
+#services {
+    padding: 50px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+    padding: 50px;
+    background: #222;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+.btn:hover {
+    background: #ff4500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #menu-toggle {
+        display: block;
+    }
+    
+    nav ul {
+        display: none;
+        flex-direction: column;
+    }
+    
+    nav ul.show {
+        display: flex;
+    }
+}
+.logoimg{
+    vertical-align: middle;
+    max-height: 100%;
+    max-height: 45px;"
+}

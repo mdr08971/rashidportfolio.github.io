@@ -148,20 +148,9 @@ body{
     justify-content: center;
     align-items: center;
 }
-.portp{
-    
-}
-.Portfolio-photo{
-    border: 1px solid #e80707;
-    border-radius: 4px;
-    padding: 5px;
-    width: 470px;
-    height: 370px;
-    border-radius: 50%;
-    position: relative;
-    left: 500px;
-    bottom: 300px;
-}
+
+
+
 
 /* #### ABOUT PAGE #### */
 .about{
